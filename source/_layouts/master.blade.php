@@ -22,17 +22,16 @@
     <!-- Insert analytics code here -->
     @endif
 
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i"
-        rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
 </head>
 
-<body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
+<body class="min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
 
     @include('_components.navigation')
 
 
-    <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
+    <main role="main">
         @yield('body')
     </main>
 
@@ -41,6 +40,7 @@
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
     @stack('scripts')
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
