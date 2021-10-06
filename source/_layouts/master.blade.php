@@ -28,14 +28,9 @@
 
 <body class="min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
 
-    @include('_components.navigation')
-
-
     <main role="main">
         @yield('body')
     </main>
-
-    @include('_components.footer')
 
     <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 

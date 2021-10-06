@@ -1,4 +1,5 @@
-<form class="grid gap-3" action="https://send.pageclip.co/p1BEy0ffyQyLhTOzI3nZH6XWdHfEDHck/Contact" method="post">
+<form class="grid gap-3 text-black" action="https://send.pageclip.co/p1BEy0ffyQyLhTOzI3nZH6XWdHfEDHck/Contact"
+    method="post">
 
     <input type="email" name="email" value="john@doe.com" />
     <textarea name="message" cols="30" rows="10"></textarea>
