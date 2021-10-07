@@ -2,9 +2,9 @@
 
 @section('body')
 
-<section class="h-screen flex flex-col items-center justify-center">
+<section class="h-screen px-3 flex flex-col items-center justify-center">
     <img class="w-40 rounded-full" src="assets/images/profile.jpg" alt="Luke Bouch">
-    <h1>Luke Bouch</h1>
+    <h1 class="text-center">Luke Bouch</h1>
     <p class="text-center max-w-2xl">Luke is a web developer in Charlottesville Virginia offering custom solutions to
         clients that
         are effective and
