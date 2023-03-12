@@ -19,7 +19,7 @@
     <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="{{ $page->siteName }} Atom Feed">
 
     @if ($page->production)
-    <!-- Insert analytics code here -->
+        <script src="https://cdn.usefathom.com/script.js" data-site="DHUSUABU" defer></script>
     @endif
 
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
