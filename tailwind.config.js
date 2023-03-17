@@ -6,7 +6,6 @@ module.exports = {
         "source/**/*.php",
         "source/**/*.vue",
     ],
-    plugins: [require("@tailwindcss/forms")],
     theme: {
         extend: {
             fontFamily: {
@@ -50,6 +49,7 @@ module.exports = {
         width: ["responsive", "focus"],
     },
     plugins: [
+        require("@tailwindcss/forms"),
         function({ addUtilities }) {
             const newUtilities = {
                 ".transition-fast": {
